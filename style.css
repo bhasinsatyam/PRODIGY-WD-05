@@ -93,3 +93,28 @@ body{
     margin-top: 10px;
     display: none;
 }
+@media (max-width: 768px) { /* Styles for screens up to 768px wide (e.g., tablets) */
+    .search input {
+      font-size: 14px; /* Slightly smaller font for better readability */
+    }
+  
+    .weather-icon {
+      width: 80px; /* Adjust image size for smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) { /* Styles for screens up to 480px wide (e.g., phones) */
+    .search button {
+      width: 30px; /* Smaller search button */
+      height: 30px;
+    }
+  
+    .weather h1 {
+      font-size: 30px; /* Scale down heading for smaller screens */
+    }
+  
+    .details {
+      padding: 0 5px; /* Reduce padding for better spacing */
+    }
+  }
+  
